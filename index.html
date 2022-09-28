@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta charset="UFT-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+
+    <title>Encriptador de textos</title>
+
+</head>
+
+<body>
+
+    <div class="logo">
+        <img class="logoim" src="img/Logo.png">
+    </div>
+
+    <input class="input" type="text" id="input-text" placeholder="Ingresa el texto aqui">
+
+    <div class="frame1">
+        <p>Sólo letras minúsculas y sin acentos</p>
+    </div>
+
+    <div class="der">
+        <img id="imder" src="img/muneco.png" alt="">  
+    </div>
+
+    <div class="botones">
+       
+        <button type="button" id="but-enc" onclick="encriptar()">Encriptar</button>
+        <button type="button" id="but-des" onclick="desencriptar()">Desencriptar</button>
+        
+    </div>
+
+    <div class="frame5">
+
+        <h1 id="texto"> No se encontró el mensaje</h1>
+        <p id="texto2">Ingresa el texto a encriptar o desencriptar.</p>
+
+    </div>
+
+    <button type="button" id="copiar" onclick="copy()">Copiar</button>
+    
+
+</body>
+</html>
